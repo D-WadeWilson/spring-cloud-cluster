@@ -11,7 +11,8 @@ import java.util.List;
 
 @RestController
 public class DeptController_Dept {
-    private  static  final  String PREFIX="http://localhost:8001";
+   // private  static  final  String PREFIX="http://localhost:8001";
+    private  static  final  String PREFIX="http://MS-DEPT";
     @Autowired
     private RestTemplate restTemplate;
 

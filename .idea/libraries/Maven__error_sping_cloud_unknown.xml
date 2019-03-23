@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: error:sping-cloud:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/error/sping-cloud/unknown/sping-cloud-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/error/sping-cloud/unknown/sping-cloud-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/error/sping-cloud/unknown/sping-cloud-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
