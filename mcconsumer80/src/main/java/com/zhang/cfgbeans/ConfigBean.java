@@ -14,8 +14,8 @@ public class ConfigBean {
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }
-    @Bean
+   /* @Bean
     public IRule myRule(){
         return new RandomRule();
-    }
+    }*/
 }
