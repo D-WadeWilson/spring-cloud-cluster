@@ -51,13 +51,16 @@ public class RandomRule_zhang  extends AbstractLoadBalancerRule {
             }else {
                 total=0;
                 currentIndex++;
-                if(currentIndex>upList.size()){
+
+                if(currentIndex>=upList.size()){
                     currentIndex=0;
                 }
+                //server=upList.get(currentIndex);
 
-               // server=upList.get(currentIndex);
+               //
             }
             System.out.println("========++++++++++++++++++++++++++"+server);
+            System.out.println("========"+currentIndex);
 
             if (server == null) {
                 /*
