@@ -7,9 +7,13 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class MySelfRule {
-    @Bean
+   /* @Bean
     public IRule myRule(){
         return new RandomRule();
+    }*/
+    @Bean
+    public IRule myRule(){
+        return new RandomRule_zhang();
     }
 
 }

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac819d17-98f0-452b-a1df-a4f878843f9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mcconsumer80/src/main/java/com/rule/MySelfRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcconsumer80/src/main/java/com/rule/RandomRule_zhang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcconsumer80/src/main/java/com/zhang/ApplicationMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcconsumer80/src/main/java/com/zhang/ApplicationMain80.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcconsumer80/src/main/java/com/zhang/cfgbeans/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcconsumer80/src/main/java/com/zhang/cfgbeans/ConfigBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcconsumer80/src/main/java/com/rule/MySelfRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/mcconsumer80/src/main/java/com/rule/MySelfRule.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/parent/target/" />
     <ignored path="$PROJECT_DIR$/msapi/target/" />
@@ -42,7 +41,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="dtd" value="1" />
-          <entry key="java" value="67" />
+          <entry key="java" value="69" />
           <entry key="pom" value="8" />
           <entry key="xml" value="29" />
           <entry key="yml" value="19" />
@@ -52,7 +51,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="DTD" value="1" />
-          <entry key="JAVA" value="67" />
+          <entry key="JAVA" value="69" />
           <entry key="XML" value="37" />
           <entry key="YAML" value="19" />
         </counts>
@@ -60,14 +59,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="1379" />
+          <entry key="java" value="1638" />
           <entry key="xml" value="1902" />
           <entry key="yml" value="819" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1379" />
+          <entry key="JAVA" value="1638" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1902" />
           <entry key="YAML" value="819" />
@@ -98,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mcconsumer80/src/main/java/com/zhang/ApplicationMain80.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="308">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,12 +109,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mcconsumer80/src/main/java/com/rule/MySelfRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="220">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mcconsumer80/src/main/java/com/rule/RandomRule_zhang.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2208#2209#0" expanded="true" />
+                <element signature="e#2279#2280#0" expanded="true" />
+                <element signature="e#2333#2334#0" expanded="true" />
+                <element signature="e#2386#2387#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,7 +148,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mcconsumer80/src/main/java/com/zhang/cfgbeans/ConfigBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="356">
@@ -141,15 +156,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mceureka7002/src/main/java/com/zhang/EurekaServer_Main_7002.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -243,9 +249,10 @@
         <option value="$PROJECT_DIR$/mcconsumer80/pom.xml" />
         <option value="$PROJECT_DIR$/mspro8003/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mspro8002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mcconsumer80/src/main/java/com/rule/MySelfRule.java" />
         <option value="$PROJECT_DIR$/mcconsumer80/src/main/java/com/zhang/ApplicationMain80.java" />
         <option value="$PROJECT_DIR$/mcconsumer80/src/main/java/com/zhang/cfgbeans/ConfigBean.java" />
+        <option value="$PROJECT_DIR$/mcconsumer80/src/main/java/com/rule/MySelfRule.java" />
+        <option value="$PROJECT_DIR$/mcconsumer80/src/main/java/com/rule/RandomRule_zhang.java" />
       </list>
     </option>
   </component>
@@ -280,7 +287,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="599" />
     <option name="y" value="-16" />
     <option name="width" value="1111" />
@@ -583,7 +590,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553354757751" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553357141024" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -714,18 +721,18 @@
       <workItem from="1553167100362" duration="594000" />
       <workItem from="1553256487885" duration="9182000" />
       <workItem from="1553303057371" duration="4796000" />
-      <workItem from="1553347205908" duration="5389000" />
+      <workItem from="1553347205908" duration="7789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31704000" />
+    <option name="totallyTimeSpent" value="34104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="599" y="-16" width="1111" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26812366" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35965747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -743,7 +750,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32998884" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -752,7 +759,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.20895523" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.20895523" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -766,9 +773,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.31/druid-1.0.31.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.0/mybatis-spring-boot-starter-1.3.0.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1061,32 +1065,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mcconsumer80/src/main/java/com/rule/MySelfRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mcconsumer80/src/main/java/com/zhang/controller/DeptController_Dept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mcconsumer80/src/main/java/com/zhang/ApplicationMain80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1099,6 +1081,42 @@
           <caret line="19" column="7" selection-start-line="16" selection-start-column="3" selection-end-line="19" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcconsumer80/src/main/java/com/rule/MySelfRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcconsumer80/src/main/java/com/zhang/ApplicationMain80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcconsumer80/src/main/java/com/rule/RandomRule_zhang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2333#2334#0" expanded="true" />
+            <element signature="e#2386#2387#0" expanded="true" />
           </folding>
         </state>
       </provider>
