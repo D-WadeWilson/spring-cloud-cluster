@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mcconsumer80/mcconsumer80.iml" filepath="$PROJECT_DIR$/mcconsumer80/mcconsumer80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mcconsumer80feign/mcconsumer80feign.iml" filepath="$PROJECT_DIR$/mcconsumer80feign/mcconsumer80feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/mceureka7001/mceureka7001.iml" filepath="$PROJECT_DIR$/mceureka7001/mceureka7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/mceureka7002/mceureka7002.iml" filepath="$PROJECT_DIR$/mceureka7002/mceureka7002.iml" />
       <module fileurl="file://$PROJECT_DIR$/mceureka7003/mceureka7003.iml" filepath="$PROJECT_DIR$/mceureka7003/mceureka7003.iml" />

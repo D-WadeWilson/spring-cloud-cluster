@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mcconsumer80" />
+        <module name="mcconsumer80feign" />
         <module name="mceureka7001" />
         <module name="mceureka7002" />
         <module name="mceureka7003" />
@@ -18,6 +19,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mcconsumer80" target="1.8" />
+      <module name="mcconsumer80feign" target="1.8" />
       <module name="mceureka7001" target="1.8" />
       <module name="mceureka7002" target="1.8" />
       <module name="mceureka7003" target="1.8" />
