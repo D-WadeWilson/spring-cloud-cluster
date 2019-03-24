@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" filepath="$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/mcconsumer80/mcconsumer80.iml" filepath="$PROJECT_DIR$/mcconsumer80/mcconsumer80.iml" />
       <module fileurl="file://$PROJECT_DIR$/mcconsumer80feign/mcconsumer80feign.iml" filepath="$PROJECT_DIR$/mcconsumer80feign/mcconsumer80feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/mceureka7001/mceureka7001.iml" filepath="$PROJECT_DIR$/mceureka7001/mceureka7001.iml" />
