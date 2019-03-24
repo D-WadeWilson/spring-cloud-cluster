@@ -2,31 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac819d17-98f0-452b-a1df-a4f878843f9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_4_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_1_4_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_1_4_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mspro8001hystrix/mspro8001hystrix.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mspro8001hystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mspro8001hystrix/src/main/java/com/zhang/ApplicationMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mspro8001hystrix/src/main/java/com/zhang/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mspro8001hystrix/src/main/java/com/zhang/dao/DeptDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mspro8001hystrix/src/main/java/com/zhang/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mspro8001hystrix/src/main/java/com/zhang/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mspro8001hystrix/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mspro8001hystrix/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mspro8001hystrix/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msapi/src/main/java/com/zhang/service/DeptClientServiceFallbackFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcconsumer80feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcconsumer80feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcconsumer80feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mcconsumer80feign/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msapi/src/main/java/com/zhang/service/DeptClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msapi/src/main/java/com/zhang/service/DeptClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msapi/target/classes/com/zhang/service/DeptClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/msapi/target/classes/com/zhang/service/DeptClientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msapi/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/msapi/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msapi/target/micService-parent.jar" beforeDir="false" afterPath="$PROJECT_DIR$/msapi/target/micService-parent.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/parent/target/" />
     <ignored path="$PROJECT_DIR$/msapi/target/" />
@@ -64,39 +47,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="dtd" value="1" />
           <entry key="jFeignava" value="1" />
-          <entry key="java" value="95" />
+          <entry key="java" value="108" />
           <entry key="pom" value="8" />
           <entry key="xml" value="35" />
-          <entry key="yml" value="21" />
+          <entry key="yml" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="DTD" value="1" />
-          <entry key="JAVA" value="95" />
+          <entry key="JAVA" value="108" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="43" />
-          <entry key="YAML" value="21" />
+          <entry key="YAML" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="2090" />
+          <entry key="java" value="2227" />
           <entry key="xml" value="2103" />
-          <entry key="yml" value="826" />
+          <entry key="yml" value="863" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2090" />
+          <entry key="JAVA" value="2227" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="2103" />
-          <entry key="YAML" value="826" />
+          <entry key="YAML" value="863" />
         </counts>
       </usages-collector>
     </session>
@@ -104,6 +87,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/zhang/controller/DeptController_Dept.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/zhang/ApplicationMain80Feign.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -116,38 +111,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mspro8001hystrix/pom.xml">
+        <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/rule/RandomRule_zhang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="22">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mspro8001hystrix/src/main/java/com/zhang/ApplicationMain8001.java">
+        <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mspro8001hystrix/src/main/resources/mybatis/mapper/DeptMapper.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mceureka7001/src/main/java/com/zhang/EurekaServer_Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -162,19 +138,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mspro8001hystrix/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/msapi/src/main/java/com/zhang/service/DeptClientService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mspro8001hystrix/src/main/java/com/zhang/controller/DeptController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="154">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,19 +150,47 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mceureka7003/src/main/java/com/zhang/EurekaServer_Main_7003.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/feign/FeignClient.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="-146">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/msapi/src/main/java/com/zhang/entities/Dept.java">
+        <entry file="file://$PROJECT_DIR$/msapi/src/main/java/com/zhang/service/DeptClientServiceFallbackFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="88">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mceureka7003/src/main/java/com/zhang/EurekaServer_Main_7003.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mspro8001/src/main/java/com/zhang/ApplicationMain8001.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -205,8 +200,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -265,13 +260,15 @@
         <option value="$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/rule/MySelfRule.java" />
         <option value="$PROJECT_DIR$/mcconsumer80feign/pom.xml" />
         <option value="$PROJECT_DIR$/msapi/pom.xml" />
-        <option value="$PROJECT_DIR$/msapi/src/main/java/com/zhang/service/DeptClientService.java" />
         <option value="$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/zhang/controller/DeptController_Dept.java" />
         <option value="$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/zhang/ApplicationMain80Feign.java" />
         <option value="$PROJECT_DIR$/mspro8001hystrix/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mspro8001hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/mspro8001hystrix/src/main/java/com/zhang/controller/DeptController.java" />
         <option value="$PROJECT_DIR$/mspro8001hystrix/src/main/java/com/zhang/ApplicationMain8001.java" />
+        <option value="$PROJECT_DIR$/msapi/src/main/java/com/zhang/service/DeptClientService.java" />
+        <option value="$PROJECT_DIR$/mcconsumer80feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/msapi/src/main/java/com/zhang/service/DeptClientServiceFallbackFactory.java" />
       </list>
     </option>
   </component>
@@ -325,8 +322,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="695" />
-    <option name="y" value="37" />
+    <option name="x" value="495" />
     <option name="width" value="1111" />
     <option name="height" value="1056" />
   </component>
@@ -347,47 +343,82 @@
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mspro8001hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="msapi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mspro8001hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="msapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mspro8001hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mspro8001hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="msapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mspro8001hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="msapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zhang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mspro8001hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="msapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zhang" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="msapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhang" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mspro8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mspro8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mspro8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mspro8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mspro8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -405,7 +436,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553400283135" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553406800056" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -437,9 +468,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApplicationMain8001">
-    <configuration name="ApplicationMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="mspro8001hystrix" />
+  <component name="RunManager" selected="Spring Boot.ApplicationMain80Feign">
+    <configuration name="ApplicationMain8001 (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mspro8001" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhang.*" />
@@ -504,19 +535,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ApplicationMain8001 (1)" />
       <item itemvalue="Spring Boot.ApplicationMain80Feign" />
       <item itemvalue="Spring Boot.EurekaServer_Main" />
       <item itemvalue="Spring Boot.EurekaServer_Main_7002" />
       <item itemvalue="Spring Boot.EurekaServer_Main_7003" />
-      <item itemvalue="Spring Boot.ApplicationMain8001" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ApplicationMain8001" />
+        <item itemvalue="Spring Boot.ApplicationMain80Feign" />
+        <item itemvalue="Spring Boot.ApplicationMain8001 (1)" />
         <item itemvalue="Spring Boot.EurekaServer_Main_7003" />
         <item itemvalue="Spring Boot.EurekaServer_Main_7002" />
         <item itemvalue="Spring Boot.EurekaServer_Main" />
-        <item itemvalue="Spring Boot.ApplicationMain80Feign" />
       </list>
     </recent_temporary>
   </component>
@@ -537,18 +568,17 @@
       <workItem from="1553256487885" duration="9182000" />
       <workItem from="1553303057371" duration="4796000" />
       <workItem from="1553347205908" duration="10909000" />
-      <workItem from="1553391436244" duration="4981000" />
+      <workItem from="1553391436244" duration="9320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42205000" />
+    <option name="totallyTimeSpent" value="46544000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -558,7 +588,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43924192" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35451505" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -575,7 +605,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.6460514" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.6455224" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -588,36 +618,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mceureka7001/src/main/java/com/zhang/EurekaServer_Main.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mspro8002/src/main/java/com/zhang/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mspro8002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="72" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="72" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mspro8002/src/main/java/com/zhang/service/DeptService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -717,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mcconsumer80/src/main/java/com/zhang/ApplicationMain80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mcconsumer80/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
@@ -739,14 +733,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/zhang/cfgbeans/ConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/rule/MySelfRule.java" />
     <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/zhang/ApplicationMain80.jFeignava" />
-    <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/rule/RandomRule_zhang.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/rule/MySelfRule.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -781,16 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/zhang/controller/DeptController_Dept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mspro8002/src/main/java/com/zhang/ApplicationMain8002.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -798,33 +776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msapi/src/main/java/com/zhang/service/DeptClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mspro8003/src/main/java/com/zhang/ApplicationMain8003.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mspro8001/src/main/java/com/zhang/ApplicationMain8001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -868,13 +823,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/zhang/ApplicationMain80Feign.java">
+    <entry file="file://$PROJECT_DIR$/mspro8001hystrix/src/main/java/com/zhang/ApplicationMain8001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="176">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mspro8001hystrix/src/main/java/com/zhang/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcconsumer80/src/main/java/com/zhang/ApplicationMain80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/zhang/cfgbeans/ConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -904,24 +883,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/rule/RandomRule_zhang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mceureka7003/src/main/java/com/zhang/EurekaServer_Main_7003.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="132">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mspro8001hystrix/src/main/java/com/zhang/ApplicationMain8001.java">
+    <entry file="file://$PROJECT_DIR$/msapi/src/main/java/com/zhang/service/DeptClientService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="154">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mspro8001hystrix/src/main/java/com/zhang/controller/DeptController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/feign/FeignClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="-146">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/zhang/controller/DeptController_Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mspro8001/src/main/java/com/zhang/ApplicationMain8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msapi/src/main/java/com/zhang/service/DeptClientServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcconsumer80feign/src/main/java/com/zhang/ApplicationMain80Feign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
