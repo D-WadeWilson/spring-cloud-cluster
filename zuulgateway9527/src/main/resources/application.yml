@@ -16,3 +16,9 @@ info:
   company-name: www.zhang.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+zuul:
+  routes:
+    mydept.serviceId: MS-DEPT
+    mydept.path: /mydept/**
+  ignored-services: "*"
+  prefix: /zhang
