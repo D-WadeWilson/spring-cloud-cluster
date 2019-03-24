@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/mcconsumer80feign/pom.xml" />
         <option value="$PROJECT_DIR$/mspro8001hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/hystrixdashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/zuulgateway9527/pom.xml" />
       </list>
     </option>
   </component>

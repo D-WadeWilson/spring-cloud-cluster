@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/mspro8003/mspro8003.iml" filepath="$PROJECT_DIR$/mspro8003/mspro8003.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuulgateway9527/zuulgateway9527.iml" filepath="$PROJECT_DIR$/zuulgateway9527/zuulgateway9527.iml" />
     </modules>
   </component>
 </project>

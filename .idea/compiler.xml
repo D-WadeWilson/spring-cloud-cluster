@@ -17,6 +17,7 @@
         <module name="mspro8001hystrix" />
         <module name="mspro8002" />
         <module name="mspro8003" />
+        <module name="zuulgateway9527" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +33,7 @@
       <module name="mspro8002" target="1.8" />
       <module name="mspro8003" target="1.8" />
       <module name="parent" target="1.8" />
+      <module name="zuulgateway9527" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
